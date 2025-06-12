@@ -1,0 +1,27 @@
+Type: Package
+Package: dataRetrievalPlus
+Title: Some wrapper functions for the dataretrieval package.
+Version: 0.2.0
+Authors@R: c(
+    person("C A", "Pellett", , "c.alex.pellett@gmail.com", role = c("aut", "cre")),
+    person("N J", "Pinder", , "nicholas.pinder@des.sc.gov", role = c("aut")),
+    person("State of South Carolina Department of Environmental Services", role = "fnd")
+  )
+Maintainer: Nicholas Pinder <nicholas.pinder@des.sc.gov> 
+Description: More about what it does (maybe more than one line) Use four
+    spaces when indenting paragraphs within the Description.
+License: file LICENSE
+URL: https://github.com/capellett/dataRetrievalPlus
+BugReports: https://github.com/capellett/dataRetrievalPlus/issues
+Depends: 
+    R (>= 4.5)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
